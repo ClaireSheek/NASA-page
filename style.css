@@ -6,14 +6,66 @@ body {
 
 main {
     display: flex;
+    width: 850px;
     background-color: whitesmoke;
+    flex-direction: column;
 
 }
 
 .imageContainer {
+    display: flex;
+    height: 450px;
+    margin: 15px;
+    background-image: url('galaxyPhoto.jpg');
+    background-position: center;
+    font-family: 'Heebo', sans-serif;
 
 }
 
-.infoContainer {
+h1 {
+    color: white;
+    font-size: 75px;
+    margin: auto;
     
 }
+
+
+.infoContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: #E6E6E6;
+
+}
+
+.infoContainer div {
+    height: 324px;
+    margin: 10px;
+}
+
+ul {
+    font: ;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    margin: 2px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 5px;
+}
+
+#textBox {
+    border: none;
+    resize: none;
+}
+
+
