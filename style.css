@@ -1,12 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    width: 850px;
     box-sizing: border-box;
 }  
 
 main {
     display: flex;
-    width: 850px;
     flex-direction: column;
 
 }
@@ -18,7 +17,6 @@ main {
     background-image: url('galaxyPhoto.jpg');
     background-position: center;
     font-family: 'Heebo', sans-serif;
-
 }
 
 h1 {
